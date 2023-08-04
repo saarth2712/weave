@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="https://weaveink.netlify.app/" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
