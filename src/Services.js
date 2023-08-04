@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '/Users/saarth2712/weave/src/Weave_Logo2.png';
+import logo from './Weave_Logo2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Services.css';
