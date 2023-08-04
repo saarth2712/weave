@@ -1,0 +1,103 @@
+.services {
+text-align: center;
+justify-content: center;
+}
+
+.slogan {
+margin-top: -20px;
+padding: 20px;
+width: 50%;
+text-align: left;
+margin-left: 150px;
+}
+
+
+.slogan p {
+font-size: 50px;
+color: black;
+width: 100%;
+margin-top: 50px;
+}
+
+.forma {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+border-radius: 5px;
+width: 100%;
+margin-top: 40px;
+
+}
+
+.forma label {
+align-content: flex-start;
+font-size: 25px;
+color: black;
+font-style: italic;
+font-weight: bold;
+margin-left: 20%;
+margin-top: 40px;
+}
+
+.forma p {
+font-size: 35px;
+color: black;
+width: 40%;
+margin-right: 15%;
+text-align: left;
+}
+
+.line {
+width: 15%;
+height: 1.2px;
+background-color: black;
+margin-left: 12%;
+margin-top: 80px;
+}
+
+.cta {
+margin-top: -10px;
+padding: 20px;
+width: 50%;
+text-align: left;
+margin-left: 150px;
+}
+
+
+.cta p {
+font-size: 35px;
+color: black;
+width: 100%;
+}
+
+.faq-section {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+width: 80%;
+margin-left: 160px;
+}
+
+.faq {
+width: 90%;
+margin-bottom: 20px;
+padding: 10px;
+text-align: left;
+}
+
+.faq .question {
+font-size: 25px;
+font-weight: 5000;
+margin-bottom: 20px;
+
+}
+
+.faq .answer {
+margin-top: 10px;
+font-size: 16px;
+color: gray;
+line-height: 25px;
+}
+
+

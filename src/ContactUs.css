@@ -1,0 +1,76 @@
+.contact-us {
+    text-align: center;
+    justify-content: center;
+}
+
+.bod {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.contact-details {
+    width: 50%;
+    margin-left: 170px;
+}
+
+.contact-details p {
+    font-size: 25px;
+    color: black;
+    margin-right: 15%;
+    text-align: left;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.contact-details p span{
+    font-size: 20px;
+}
+
+.details-form {
+    margin-top: 30px;
+    width: 40%;
+    margin-right: 150px;
+    text-align: left;
+  }
+  
+  .details-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 7px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .details-form input,
+  .details-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+  }
+
+  
+  .details-form button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -10px;
+  }
+  
+  .details-form button:hover {
+    background-color: black;
+    color: white;
+  }
