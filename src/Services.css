@@ -101,3 +101,77 @@ line-height: 25px;
 }
 
 
+ @media screen and (max-width: 768px) {
+.header {
+    flex-direction: column; /* Stack navigation links below the logo on smaller screens */
+    align-items: center;
+    padding: 10px;
+    }
+
+.nav-links {
+    margin-top: 10px; /* Add some top margin between logo and navigation links */
+}
+
+.slogan {
+margin-left: 10px; /* Adjust the left margin for the slogan on smaller screens */
+width: 90%; /* Make the slogan container wider on smaller screens */
+}
+
+.slogan p {
+font-size: 40px; /* Reduce font size for the slogan on smaller screens */
+}
+
+.forma {
+flex-direction: column; /* Stack the format sections on smaller screens */
+margin-top: 20px; /* Add some top margin between format sections */
+}
+
+.forma p {
+width: 100%; /* Make the text width full on smaller screens */
+margin-right: 0; /* Remove right margin on smaller screens */
+margin-bottom: 20px; /* Add some bottom margin between format sections */
+}
+
+.line {
+width: 8%; /* Adjust the line width on smaller screens */
+margin-left: 6%; /* Adjust the line margin on smaller screens */
+margin-top: 40px; /* Reduce top margin for the line on smaller screens */
+}
+
+.cta {
+margin-left: 10px; /* Adjust the left margin for CTA on smaller screens */
+width: 90%; /* Make the CTA container wider on smaller screens */
+}
+
+.cta p {
+font-size: 30px; /* Reduce font size for CTA on smaller screens */
+}
+
+.faq-section {
+grid-template-columns: repeat(1, 1fr); /* Stack FAQ sections on smaller screens */
+width: 90%; /* Make the FAQ section wider on smaller screens */
+margin-left: 5%; /* Adjust the left margin for FAQ section on smaller screens */
+}
+
+.faq {
+width: 100%; /* Make the FAQ container width full on smaller screens */
+}
+
+.footer {
+flex-direction: column; /* Stack footer content on smaller screens */
+align-items: center;
+}
+
+.footy {
+margin-left: 0; /* Adjust the left margin for footy on smaller screens */
+text-align: center;
+align-items: center;
+margin-top: 20px; /* Adjust top margin for footy on smaller screens */
+}
+
+.nav {
+margin-top: 10px; /* Add some top margin for navigation links on smaller screens */
+margin-left: 0; /* Adjust the left margin for navigation links on smaller screens */
+text-align: center;
+}
+}
