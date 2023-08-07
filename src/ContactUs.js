@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactUs.css';
-import logo from './Weave_Logo2.png';
+import logo from './Weave_Logo2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
@@ -17,7 +17,7 @@ const ContactUs = () => {
                 <a href="/contact">Contact Us</a>
                 </div>
             </div>
-            <div className="line"> </div>
+            <div className="line1"> </div>
             <div className="cta">
                 <p> Let’s work together, we are just a message away. </p>
             </div>

@@ -1,177 +1,95 @@
 .services {
-text-align: center;
-justify-content: center;
-}
+    text-align: center;
+    justify-content: center;
+  }
 
-.slogan {
-margin-top: -20px;
-padding: 20px;
-width: 50%;
-text-align: left;
-margin-left: 150px;
-}
+  .line1 {
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+    width: 20vw;
+    height: 0.10vw;
+    background-color: black;
+    margin-left: 10vw;
+  }
+  
+  .slogan {
+    width: 55vw;
+    text-align: left;
+    margin-left: 10vw;
+  }
+  
+  .slogan p {
+    font-size: 3.25vw;
+    color: black;
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+  
+  .forma {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1vw;
+  }
+  
+  .forma label {
+    font-size: 1.6vw;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20vw;
+    align-self: center;
+  }
+  
+  .forma p {
+    font-size: 2.25vw;
+    color: black;
+    width: 40%;
+    margin-right: 15vw;
+    text-align: left;
+  }
 
-
-.slogan p {
-font-size: 50px;
-color: black;
-width: 100%;
-margin-top: 50px;
-}
-
-.forma {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: white;
-border-radius: 5px;
-width: 100%;
-margin-top: 40px;
-
-}
-
-.forma label {
-align-content: flex-start;
-font-size: 25px;
-color: black;
-font-style: italic;
-font-weight: bold;
-margin-left: 20%;
-margin-top: 40px;
-}
-
-.forma p {
-font-size: 35px;
-color: black;
-width: 40%;
-margin-right: 15%;
-text-align: left;
-}
-
-.line {
-width: 15%;
-height: 1.2px;
-background-color: black;
-margin-left: 12%;
-margin-top: 80px;
-}
-
-.cta {
-margin-top: -10px;
-padding: 20px;
-width: 50%;
-text-align: left;
-margin-left: 150px;
-}
-
-
-.cta p {
-font-size: 35px;
-color: black;
-width: 100%;
-}
-
-.faq-section {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 20px;
-width: 80%;
-margin-left: 160px;
-}
-
-.faq {
-width: 90%;
-margin-bottom: 20px;
-padding: 10px;
-text-align: left;
-}
-
-.faq .question {
-font-size: 25px;
-font-weight: 5000;
-margin-bottom: 20px;
-
-}
-
-.faq .answer {
-margin-top: 10px;
-font-size: 16px;
-color: gray;
-line-height: 25px;
-}
-
-
- @media screen and (max-width: 768px) {
-.header {
-    flex-direction: column; /* Stack navigation links below the logo on smaller screens */
-    align-items: center;
-    padding: 10px;
-    }
-
-.nav-links {
-    margin-top: 10px; /* Add some top margin between logo and navigation links */
-}
-
-.slogan {
-margin-left: 10px; /* Adjust the left margin for the slogan on smaller screens */
-width: 90%; /* Make the slogan container wider on smaller screens */
-}
-
-.slogan p {
-font-size: 40px; /* Reduce font size for the slogan on smaller screens */
-}
-
-.forma {
-flex-direction: column; /* Stack the format sections on smaller screens */
-margin-top: 20px; /* Add some top margin between format sections */
-}
-
-.forma p {
-width: 100%; /* Make the text width full on smaller screens */
-margin-right: 0; /* Remove right margin on smaller screens */
-margin-bottom: 20px; /* Add some bottom margin between format sections */
-}
-
-.line {
-width: 8%; /* Adjust the line width on smaller screens */
-margin-left: 6%; /* Adjust the line margin on smaller screens */
-margin-top: 40px; /* Reduce top margin for the line on smaller screens */
-}
-
-.cta {
-margin-left: 10px; /* Adjust the left margin for CTA on smaller screens */
-width: 90%; /* Make the CTA container wider on smaller screens */
-}
-
-.cta p {
-font-size: 30px; /* Reduce font size for CTA on smaller screens */
-}
-
-.faq-section {
-grid-template-columns: repeat(1, 1fr); /* Stack FAQ sections on smaller screens */
-width: 90%; /* Make the FAQ section wider on smaller screens */
-margin-left: 5%; /* Adjust the left margin for FAQ section on smaller screens */
-}
-
-.faq {
-width: 100%; /* Make the FAQ container width full on smaller screens */
-}
-
-.footer {
-flex-direction: column; /* Stack footer content on smaller screens */
-align-items: center;
-}
-
-.footy {
-margin-left: 0; /* Adjust the left margin for footy on smaller screens */
-text-align: center;
-align-items: center;
-margin-top: 20px; /* Adjust top margin for footy on smaller screens */
-}
-
-.nav {
-margin-top: 10px; /* Add some top margin for navigation links on smaller screens */
-margin-left: 0; /* Adjust the left margin for navigation links on smaller screens */
-text-align: center;
-}
-}
+  
+  .cta {
+    width: 50vw;
+    text-align: left;
+    margin-left: 10vw;
+  }
+  
+  .cta p {
+    font-size: 2.25vw;
+    color: black;
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+  
+  .faq-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2vw;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  
+  .faq {
+    width: 90%;
+    margin-bottom: 2vw;
+    text-align: left;
+  }
+  
+  .faq .question {
+    font-size: 1.8vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
+  }
+  
+  .faq .answer {
+    margin-top: 1vw;
+    font-size: 1.1vw;
+    color: gray;
+    line-height: 1.5vw;
+  }
+  

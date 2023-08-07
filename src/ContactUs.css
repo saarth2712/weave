@@ -1,76 +1,72 @@
 .contact-us {
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .bod {
-    display: flex;
-    flex-direction: row;
-    margin-top: -20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-details {
-    width: 50%;
-    margin-left: 170px;
+  width: 50%;
+  margin-left: 10vw;
 }
 
 .contact-details p {
-    font-size: 25px;
-    color: black;
-    margin-right: 15%;
-    text-align: left;
-    margin-bottom: 50px;
-    width: 80%;
+  font-size: 1.75vw;
+  color: black;
+  text-align: left;
+  margin-bottom: 5vw;
+  width: 80%;
 }
 
-.contact-details p span{
-    font-size: 20px;
+.contact-details p span {
+  font-size: 1.5vw;
 }
 
 .details-form {
-    margin-top: 30px;
-    width: 40%;
-    margin-right: 150px;
-    text-align: left;
-  }
-  
-  .details-form label {
-    font-size: 18px;
-    display: block;
-    margin-bottom: 7px;
-    text-align: left;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .details-form input,
-  .details-form textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 40px;
-    border: 2px solid black;
-    border-radius: 4px;
-    color: black;
-  }
+  width: 35%;
+  margin-right: 10vw;
+  text-align: left;
+  margin-top: 1.5vw;
+}
 
-  
-  .details-form button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: white;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border: 2px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: -10px;
-  }
-  
-  .details-form button:hover {
-    background-color: black;
-    color: white;
-  }
+.details-form label {
+  font-size: 1.2vw;
+  margin-bottom: 0.5vw;
+  display: block;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.details-form input,
+.details-form textarea {
+  width: 100%;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  margin-bottom: 2vw;
+  border: 1.5px solid black;
+  border-radius: 0.5vw;
+  color: black;
+}
+
+.details-form button {
+  display: inline-block;
+  padding: 1vw 2vw;
+  background-color: white;
+  color: black;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0.2vw solid black;
+  border-radius: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-form button:hover {
+  background-color: black;
+  color: white;
+}

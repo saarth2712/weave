@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './Weave_Logo2.png';
+import logo from './Weave_Logo2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './Services.css';
@@ -14,12 +14,12 @@ const Services = () => {
                 <img src = {logo} alt="Weave Logo" className="logo" />
                 </div>
                 <div className="nav-links">
-                <a href="/">Home</a>
-                <a href="/services">Services</a>
-                <a href="/contact">Contact Us</a>
-                </div>
+                    <a href="/">Home</a>
+                    <a href="/services">Services</a>
+                    <a href="/contact">Contact Us</a>
+                </div> 
             </div>
-            <div className="line"></div>
+            <div className="line1"></div>
             <div className= "slogan">
                 <p> Anything that involves any form of writing can and will be done by us. </p>
             </div>
@@ -39,7 +39,7 @@ const Services = () => {
                     </p>
                 </div>
             </div>
-            <div className="line"> </div>
+            <div className="line1"> </div>
             <div className="cta">
                 <p> Interested in our service but got questions? Don’t worry, we prepared a few answers.</p>
             </div>
@@ -65,14 +65,14 @@ const Services = () => {
                     so we are open to retainer contracts. </div>
                 </div>
             </div>
-            <div className="line"> </div>
+            <div className="line1"> </div>
             <div className="cta">
                 <p> Want to work together? Drop us a message and we will get back to you in no time. </p>
             </div>
             <div className="footer">
                 <div className='footy'>
                     <label> Weave </label>
-                    <p> Kalyani Nagar, Pune | +91702092215/9999032419 | weave.ink@gmail.com </p>
+                    <p> Kalyani Nagar, Pune <br/> +91702092215/9999032419 <br/> weave.ink@gmail.com </p>
                     <p> &copy; {new Date().getFullYear()} Weave </p>
                     <div className="social-icons">
                     <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
