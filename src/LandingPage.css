@@ -206,7 +206,16 @@
 }
 
 .line {
-  margin-top: 12.5vw;
+  margin-top: 10vw;
+  margin-bottom: 4.5vw;
+  width: 20vw;
+  height: 0.10vw;
+  background-color: black;
+  margin-left: 10vw;
+}
+
+.line2 {
+  margin-top: 6.5vw;
   margin-bottom: 2vw;
   width: 20vw;
   height: 0.10vw;

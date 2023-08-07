@@ -19,6 +19,10 @@ const LandingPage = () => {
     navigate('/services');
   };
 
+  const goToContactUs = () =>{
+    navigate('/contactus')
+  }
+
 
   return (
     <div className="landing-page">
@@ -90,10 +94,10 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className='line'/>
+      <div className='line2'/>
       <div className='liked'>
         <p>Like our portfolio? Want to work together? <br/> Drop us a message and we will get back to you in no time.</p>
-        <button onClick={goToServices}> GET IN TOUCH TODAY </button>
+        <button onClick={goToContactUs}> GET IN TOUCH TODAY </button>
       </div>
       <div className="footer">
         <div className='footy'>

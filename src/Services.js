@@ -38,6 +38,21 @@ const Services = () => {
                     <p> It’s not only your landing pages that need great copy. Give all pages the care they deserve.
                     </p>
                 </div>
+                <div className='forma'>
+                    <label> Product Writing </label>
+                    <p> We do product reviews, manuals, and descriptions.
+                    </p>
+                </div>
+                <div className='forma'>
+                    <label> Newsletter </label>
+                    <p> Set up newsletter.
+                    </p>
+                </div>
+                <div className='forma'>
+                    <label> Speech Writing </label>
+                    <p> We write speeches; school to political.
+                    </p>
+                </div>
             </div>
             <div className="line1"> </div>
             <div className="cta">

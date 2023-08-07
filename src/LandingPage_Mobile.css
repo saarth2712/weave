@@ -1,0 +1,156 @@
+@media (max-width: 425px) {
+
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0;
+      padding: 10px;
+    }
+  
+    .logo-container {
+      width: 40%;
+      margin: 0;
+    }
+  
+    .nav-links {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .banner {
+      height: 50vw;
+    }
+  
+    .caption {
+      font-size: 8vw;
+    }
+  
+    .about-us {
+      margin-top: 5vw;
+    }
+  
+    .se1,
+    .se2 {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      width: 100%;
+    }
+  
+    .ban,
+    .ban2 {
+      width: 60%;
+      margin: 0;
+    }
+  
+    .section,
+    .section2 {
+      width: 80%;
+      margin: 5% auto;
+    }
+  
+    .section p button,
+    .section2 p button {
+      font-size: 4vw;
+    }
+  
+    .pow {
+      margin: 0;
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .pow label {
+      font-size: 3vw;
+    }
+  
+    .brands {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .brand {
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+    }
+  
+    .line,
+    .line2 {
+      width: 60%;
+      margin-left: 20%;
+    }
+  
+    .testimonials {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .quote {
+      font-size: 4vw;
+    }
+  
+    .by {
+      font-size: 2vw;
+    }
+  
+    .liked {
+      margin: 0;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .liked p {
+      font-size: 4vw;
+    }
+  
+    .liked button {
+      font-size: 2vw;
+      margin-top: 2vw;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footy {
+      width: 90%;
+      margin: 5% auto;
+      text-align: center;
+    }
+  
+    .footy label {
+      font-size: 4vw;
+    }
+  
+    .footy p {
+      font-size: 2vw;
+      line-height: 3vw;
+    }
+  
+    .social-icons {
+      margin-top: 2vw;
+    }
+  
+    .twitter-icon,
+    .linkedin-icon {
+      font-size: 3vw;
+    }
+  
+    .nav {
+      text-align: center;
+      margin: 0;
+      align-self: center;
+    }
+  
+    .nav a {
+      font-size: 2vw;
+      margin-bottom: 4vw;
+    }
+  }
+  
+  
