@@ -14,7 +14,7 @@ const ContactUs = () => {
                 <div className="nav-links">
                 <a href="/">Home</a>
                 <a href="/services">Services</a>
-                <a href="/contact">Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
                 </div>
             </div>
             <div className="line1"> </div>
@@ -63,7 +63,7 @@ const ContactUs = () => {
                 <div className = 'nav'>
                 <a href="/">Home</a>
                 <a href="/services">Services</a>
-                <a href="/contact">Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
                 </div>
             </div>    
         </div>

@@ -16,17 +16,17 @@ const Services = () => {
                 <div className="nav-links">
                     <a href="/">Home</a>
                     <a href="/services">Services</a>
-                    <a href="/contact">Contact Us</a>
+                    <a href="/contact-us">Contact Us</a>
                 </div> 
             </div>
             <div className="line1"></div>
             <div className= "slogan">
-                <p> Anything that involves any form of writing can and will be done by us. </p>
+                <p> We offer custom content writing solutions tailored to your specific goals, needs and preferences. </p>
             </div>
             <div className='formats'>
                 <div className='forma'>
                     <label> Blogs </label>
-                    <p> SEO blog posts that drive traffic to your site and convert visitors. </p>
+                    <p> Well researched, engaging, and search engine optimized blog posts that drive traffic to your site and convert visitors.  </p>
                 </div>
                 <div className='forma'>
                     <label> Advertising </label>
@@ -40,17 +40,17 @@ const Services = () => {
                 </div>
                 <div className='forma'>
                     <label> Product Writing </label>
-                    <p> We do product reviews, manuals, and descriptions.
+                    <p> Accurate product reviews and descriptions which improve conversion rates. 
                     </p>
                 </div>
                 <div className='forma'>
                     <label> Newsletter </label>
-                    <p> Set up newsletter.
+                    <p> Engaging newsletters to promote sales and drive traffic to your website.
                     </p>
                 </div>
                 <div className='forma'>
                     <label> Speech Writing </label>
-                    <p> We write speeches; school to political.
+                    <p> Impactful speeches curated specially to capture the speaker’s voice and resonate with the audience. 
                     </p>
                 </div>
             </div>
@@ -70,9 +70,9 @@ const Services = () => {
                     We’ll send you the work in increments that you can approve or request edits for. </div>
                 </div>
                 <div className="faq">
-                    <div className="question"> Can I ask for edits? </div>
-                    <div className="answer"> Yes! Three rounds of edits per writing piece are always included in the price. 
-                    You can ask for more too, but you’ll have to pay extra for it. </div>
+                    <div className="question"> What if I'm not satisfied with the content? </div>
+                    <div className="answer"> Client satisfaction is of utmost importance to us. That is why we offer 3 rounds of edits to make necessary adjustments based on your feedback. 
+                </div>
                 </div>
                 <div className="faq">
                     <div className="question"> Are you open to a longer contract? </div>
@@ -97,7 +97,7 @@ const Services = () => {
                 <div className = 'nav'>
                 <a href="/">Home</a>
                 <a href="/services">Services</a>
-                <a href="/contact">Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
                 </div>
             </div>    
         </div>

@@ -6,7 +6,7 @@ import banner2 from './Weave_Exp.png';
 import fyre from './FYRE (6).jpg';
 import nurture from './Nurture_Final.jpg';
 import aire from './Aire_Final_Logo.jpg';
-import kamakhya from './Kamakhya.jpg';
+import kamakhya from './WhatsApp Image 2023-08-12 at 3.43.00 PM.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { useNavigate } from 'react-router-dom';
@@ -20,7 +20,7 @@ const LandingPage = () => {
   };
 
   const goToContactUs = () =>{
-    navigate('/contactus')
+    navigate('/contact-us')
   }
 
 
@@ -33,12 +33,12 @@ const LandingPage = () => {
         <div className="nav-links">
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="/contact">Contact Us</a>
+          <a href="/contact-us">Contact Us</a>
         </div> 
       </div>
       <div className='banner'>
         <div className='caption'> Your thoughts, our pen. <br /> 
-        Never write a word again with Weave! </div>
+        Weave your words with us! </div>
       </div>
       <div className='body'>
         <div className='about-us'>
@@ -46,14 +46,14 @@ const LandingPage = () => {
             <img src={banner} alt='egami' className='ban'></img>
             <div className='section'>
               <label> Introduction </label>
-              <p> We are a small team of seasoned content and copywriters. A smaller team means higher attention to detail, better communication, and efficient management. </p>
+              <p>  We craft compelling narratives that captivate, inform and engage your target audience. We use words to shape perspectives, inspire action, and transform businesses.  </p>
             </div>
           </div>
           <div className='se2'>
             <img src={banner2} alt='egami' className='ban2'></img>
             <div className='section2'>
               <label> Experience </label>
-              <p>We work with service and product-based companies to deliver high-quality written work which voices your brand personality and meets all your professional needs.
+              <p>Our team consists of seasoned conterm writers from diverse backgrounds, ranging from marketing to lifestyle to beauty to healthcare. This ensures your content is created by experts who truly understand the industry. 
                 <br/><button onClick={goToServices}> SEE WHAT WE OFFER </button>
               </p>
             </div>
@@ -112,7 +112,7 @@ const LandingPage = () => {
         <div className = 'nav'>
           <a href="/">Home</a>
           <a href="/services">Services</a>
-          <a href="/contact">Contact Us</a>
+          <a href="/contact-us">Contact Us</a>
         </div>
       </div>    
     </div>
