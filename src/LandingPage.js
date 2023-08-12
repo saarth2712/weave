@@ -53,7 +53,7 @@ const LandingPage = () => {
             <img src={banner2} alt='egami' className='ban2'></img>
             <div className='section2'>
               <label> Experience </label>
-              <p>Our team consists of seasoned conterm writers from diverse backgrounds, ranging from marketing to lifestyle to beauty to healthcare. This ensures your content is created by experts who truly understand the industry. 
+              <p> Our team consists of seasoned content writers from diverse backgrounds, ranging from marketing to lifestyle to beauty to healthcare. This ensures your content is created by experts who truly understand the industry. 
                 <br/><button onClick={goToServices}> SEE WHAT WE OFFER </button>
               </p>
             </div>
