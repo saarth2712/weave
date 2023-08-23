@@ -28,8 +28,12 @@ const ContactUs = () => {
                     <p> Contact Details: <br/><span> (+91) 7021092215 / (+91) 99990 32419 </span> </p>
                     <p> Email:<br/> <span> weave.ink@gmail.com </span></p>
                     <div className="social-icons">
-                    <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        <a href="https://twitter.com/weave_ink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/weaveink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        </a>
                     </div>
                 </div>
                 <div className='details-form'>
@@ -56,8 +60,12 @@ const ContactUs = () => {
                     <p> Kalyani Nagar, Pune | +91702092215/9999032419 | weave.ink@gmail.com </p>
                     <p> &copy; {new Date().getFullYear()} Weave </p>
                     <div className="social-icons">
-                    <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        <a href="https://twitter.com/weave_ink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/weaveink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        </a>
                     </div>
                 </div>
                 <div className = 'nav'>

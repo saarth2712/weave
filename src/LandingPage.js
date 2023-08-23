@@ -105,8 +105,12 @@ const LandingPage = () => {
             <p> Kalyani Nagar, Pune <br/> +91702092215/9999032419 <br/> weave.ink@gmail.com </p>
             <p> &copy; {new Date().getFullYear()} Weave </p>
             <div className="social-icons">
+            <a href="https://twitter.com/weave_ink" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+            </a>
+            <a href="https://www.linkedin.com/company/weaveink" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+            </a>
             </div>
         </div>
         <div className = 'nav'>
@@ -120,3 +124,4 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+

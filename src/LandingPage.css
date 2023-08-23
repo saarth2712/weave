@@ -388,6 +388,7 @@
 
 .twitter-icon,
 .linkedin-icon {
+  color: black;
   font-size: 1.75vw; /* Adjust the icon size as needed */
 }
 

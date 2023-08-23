@@ -76,7 +76,7 @@ const Services = () => {
                 </div>
                 <div className="faq">
                     <div className="question"> Are you open to a longer contract? </div>
-                    <div className="answer"> Definitely. we love one-off projects, but we're all for building meaningful partnerships, 
+                    <div className="answer"> Definitely! We love one-off projects, but we're all for building meaningful partnerships, 
                     so we are open to retainer contracts. </div>
                 </div>
             </div>
@@ -90,8 +90,12 @@ const Services = () => {
                     <p> Kalyani Nagar, Pune <br/> +91702092215/9999032419 <br/> weave.ink@gmail.com </p>
                     <p> &copy; {new Date().getFullYear()} Weave </p>
                     <div className="social-icons">
-                    <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        <a href="https://twitter.com/weave_ink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faTwitter} className="twitter-icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/weaveink" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                        </a>
                     </div>
                 </div>
                 <div className = 'nav'>
