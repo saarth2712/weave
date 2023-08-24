@@ -19,7 +19,7 @@ const ContactUs = () => {
             </div>
             <div className="line1"> </div>
             <div className="cta">
-                <p> Let’s work together, we are just a message away. </p>
+                <p> We are just a message away. </p>
             </div>
             <div className='bod'>
                 <div className='contact-details'>
