@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './ContactUs.css';
 import logo from './Weave_Logo2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
