@@ -38,7 +38,6 @@ const ContactUs = () => {
                 </div>
                 <div className='details-form'>
                     <form method="POST" netlify>
-                        <input type="hidden" name="form-name" value="contact" />
                         <div>
                             <label htmlFor="name">Name:</label>
                             <input type="text" id="name" name="name" required />
