@@ -23,8 +23,8 @@ const ContactUs = () => {
             </div>
             <div className='bod'>
                 <div className='contact-details'>
-                    <p> We can provide further case studies upon request. In case you’re reaching out because of a project, 
-                        please provide some information on your goals and we’ll move the conversation on from there.</p>
+                    <p> We can provide further case studies upon request. In case you are reaching out because of a project, 
+                        please provide some information on your goals and we will move the conversation on from there.</p>
                     <p> Contact Details: <br/><span> (+91) 7021092215 / (+91) 99990 32419 </span> </p>
                     <p> Email:<br/> <span> weave.ink@gmail.com </span></p>
                     <div className="social-icons">
@@ -37,7 +37,7 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className='details-form'>
-                    <form name = 'inquiry-form' netlify>
+                    <form name = 'inquiry-form' method='POST' data-netlify= "true">
                         <div>
                             <label htmlFor="name">Name:</label>
                             <input type="text" id="name" name="name" required />
