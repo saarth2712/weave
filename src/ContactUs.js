@@ -37,7 +37,8 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div className='details-form'>
-                    <form name = 'inquiry-form' netlify>
+                    <form name = 'inquiry-form' data-netlify = 'true'>
+                        <input type='hidden' name= 'form-name' value= 'inquiry-form'></input>
                         <p>                            
                             <label htmlFor="name">Name:</label>
                             <input type="text" name="name" required />
