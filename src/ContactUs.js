@@ -36,29 +36,6 @@ const ContactUs = () => {
                         </a>
                     </div>
                 </div>
-                <div className='details-form'>
-                    <form name = 'inquiry-form' data-netlify = 'true'>
-                        <input type='hidden' name= 'form-name' value= 'inquiry-form'></input>
-                        <p>                            
-                            <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" required />
-                        </p>
-
-                        <p>
-                            <label htmlFor="email">Email:</label>
-                            <input type="email" name="email" required />
-                        </p>
-
-                        <p>
-                            <label htmlFor="message">Message:</label>
-                            <textarea name="message" rows="15" required></textarea>
-                        </p>
-                        
-                        <p>
-                            <button type="submit">Send</button>
-                        </p>
-                    </form>
-                </div>
             </div>
             <div className="footer">
                 <div className='footy'>
